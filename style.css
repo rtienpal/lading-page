@@ -1,0 +1,187 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.hero {
+    margin: 0;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.hero-header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin: 16px 250px 16px 250px;
+}
+
+.header-left {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.header-right {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    gap: 20px;
+}
+
+.hero-main {
+    display: flex;
+    margin: 80px 250px 80px 250px;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.main-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    flex: 1;
+    
+}
+
+.left-one {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight:bolder;
+}
+
+.left-two {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+
+}
+
+button {
+    padding: 8px 20px 8px 20px;
+}
+
+button.signup-shortcut {
+    background-color: #3882f6;
+    border-radius: 6px;
+    color: #f9faf8;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.main-right {
+    border-style: solid;
+    background-color: #3882f6;
+    height: 240px;
+    width: 585px;
+}
+
+.information {
+    background-color: white;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 800;
+    margin: 60px auto 60px auto;
+    text-align: center;
+    color: #1f2937
+}
+
+.info-elem {
+    display: flex;
+    margin: 5px 350px 90px 350px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.image-subtext {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content:space-between;
+    margin: 30px;
+    flex: 1;
+}
+
+.image {
+    border-style: solid;
+    border-color: #3882f6;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.subtext {
+    width: 150px;
+    color:#1f2937;
+    text-align:justify;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 90px 380px 90px 380px;
+}
+
+.quote {
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+}
+
+.author {
+    font-size: 32px;
+    color: #1f2937;
+    text-align: right;
+    font-weight: bold;
+}
+
+.signup-section {
+    background-color: white;
+}
+
+.blue-box {
+    background-color: #3882f6;
+    margin: 60px 250px 60px 250px;
+    display: flex;
+    padding: 40px 60px 40px 60px;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+.signup-text {
+    color: #f9faf8;
+}
+
+.text1 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+button.signup {
+    background-color: #3882f6;
+    border-radius: 6px;
+    color: #f9faf8;
+    font-size: 15px;
+    font-weight: bold;
+    border-color: white;
+
+}
+
+
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 20px 0px 5px 0px;
+
+}
